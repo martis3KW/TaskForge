@@ -20,14 +20,15 @@ function App() {
           toastOptions={{
             duration: 3000,
             style: {
-              background: '#1e293b',
-              color: '#f1f5f9',
-              border: '1px solid #334155',
-              borderRadius: '10px',
-              fontSize: '14px',
+              background: '#131316',
+              color: '#fafafa',
+              border: '1px solid #27272a',
+              borderRadius: '8px',
+              fontSize: '13px',
+              padding: '10px 14px',
             },
-            success: { iconTheme: { primary: '#10b981', secondary: '#fff' } },
-            error: { iconTheme: { primary: '#ef4444', secondary: '#fff' } },
+            success: { iconTheme: { primary: '#34d399', secondary: '#09090b' } },
+            error: { iconTheme: { primary: '#f87171', secondary: '#09090b' } },
           }}
         />
         <Routes>
