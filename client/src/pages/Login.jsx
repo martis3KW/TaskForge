@@ -30,6 +30,9 @@ const Login = () => {
 
   return (
     <div className="auth-wrapper">
+      <div className="auth-orb auth-orb-1" />
+      <div className="auth-orb auth-orb-2" />
+      <div className="auth-orb auth-orb-3" />
       <div className="auth-card">
         <div className="auth-logo">
           <div className="auth-logo-icon">⚡</div>
